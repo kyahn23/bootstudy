@@ -1,0 +1,13 @@
+spring:
+    datasource:
+        driver-class-name: org.mariadb.jdbc.Driver
+        url: jdbc:mariadb://localhost:3306/mariadb
+        username: mariadb
+        password: mariadb
+    jpa:
+        hibernate:
+            ddl-auto: update
+        generate-ddl: false
+        show-sql: true
+        database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+        
